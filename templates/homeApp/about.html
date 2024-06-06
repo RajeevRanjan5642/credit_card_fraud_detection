@@ -1,0 +1,44 @@
+{% extends "index.html" %}
+{% load static %}
+{% block title %}
+Home | Fraud Detection System
+{% endblock %}
+
+{% block css %}
+
+<link href="{% static 'assets/css/teststyle.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/style1.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<main id="main" >
+
+    <!-- ======= Hero Section ======= -->
+    <section id="homesection" style="padding: 0px 0px;">
+    </section><!-- End Hero -->
+    <div id="header1-container">
+        <h2 id="header-2">About</h2>
+    </div>
+    <div class="challengescontainer" id="challengescontainer">
+			<h3>Main Challenges Involved</h3>
+            
+            <ul><li>Data imbalance: Legitimate transactions vastly outnumber fraudulent ones, leading to imbalanced datasets.</li>
+                <li>Fraudulent patterns: Evolving tactics of fraudsters make it difficult to identify consistent patterns of fraudulent behavior.</li>
+                <li>Real-time processing: The need to analyze vast amounts of data quickly to prevent fraudulent transactions in real-time poses a challenge.</li>
+            <li>False positives: Balancing fraud detection with minimizing false positives is crucial to avoid inconveniencing customers.</li>
+        <li>Feature engineering: Selecting the right features for training models is challenging and requires careful consideration.</li></ul>
+    </div>
+  
+        <div class="challengescontainer" id="challengescontainer">
+			<h3>How to tackle these challenges?</h3>
+            
+            <ul><li>Data Imbalance: Employ techniques like oversampling or undersampling to balance the dataset and prevent bias in the model.</li>
+                <li>Fraudulent Patterns: Utilize adaptive machine learning models or anomaly detection algorithms to identify evolving fraud tactics.</li>
+                <li>Real-time Processing: Implement stream processing frameworks and in-memory databases for efficient analysis of high-volume transaction data.</li>
+            <li>False Positives: Fine-tune machine learning models and incorporate contextual information to reduce false positives while maintaining high detection rates.</li>
+        <li>Feature Engineering: Use advanced techniques to select the most relevant features and incorporate non-traditional data sources for improved fraud detection capabilities.</li></ul>
+    </div>
+    </main>
+  
+{% endblock %}
+
