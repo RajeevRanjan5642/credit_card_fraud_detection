@@ -14,7 +14,7 @@ I. Create a Virtual Environment :
         virtualenv venv
 
 </ul>
-📝 : venv is name of virtual environment. we can give any name which we want.<br><br>
+📝 : venv is name of virtual environment. we can give any name which we want.<br>
 
 II. Activate the Virtual Environment:
 
@@ -32,7 +32,9 @@ II. Activate the Virtual Environment:
 </ul>
 </li>
 </ul><br>
-III. Install Project Dependencies:<br><br>
+
+III. Install Project Dependencies:
+
 <ul>
 <li>Make sure you have a requirements.txt file in your project directory. If not, create one and list all the required packages (dependencies) for your Django project.</li> 
 <li>Run the following command to install the dependencies:</li>
@@ -40,7 +42,9 @@ III. Install Project Dependencies:<br><br>
         pip install -r requirements.txt
 
 </ul><br>
-IV.Create a Superuser:<br><br>
+
+IV.Create a Superuser:
+
 <ul>
 <li>In your project root directory (where manage.py is located), run the following command:</li>
 
@@ -48,7 +52,9 @@ IV.Create a Superuser:<br><br>
 
 <li>Follow the prompts to set a username, email, and password for the superuser. This user will have administrative privileges in your Django application.</li>
 </ul><br>
-V. Run the Development Server:<br><br>
+
+V. Run the Development Server:
+
 <ul>
 <li>Start your Django development server by running:</li>
 
