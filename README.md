@@ -14,7 +14,7 @@ I. Create a Virtual Environment :
         virtualenv venv
 
 </ul>
-📝 : venv is name of virtual environment. we can give any name which we want.<br>
+📌 venv is name of virtual environment. we can give any name which we want.<br><br>
 
 II. Activate the Virtual Environment:
 
@@ -43,7 +43,7 @@ III. Install Project Dependencies:
 
 </ul><br>
 
-IV.Create a Superuser:
+IV. Create a Superuser:
 
 <ul>
 <li>In your project root directory (where manage.py is located), run the following command:</li>
@@ -63,7 +63,7 @@ V. Run the Development Server:
 <li>Open your web browser and visit http://127.0.0.1:8000/ to see your Django app in action.</li>
 </ul>
 <br>
-📝 : If you are adding some model in models.py or changing something don't forget to make migrations :
+📌 If you are adding some model in models.py or changing something don't forget to make migrations :
 
         python manage.py makemigrations
 
