@@ -63,7 +63,7 @@ V. Run the Development Server:
 <li>Open your web browser and visit http://127.0.0.1:8000/ to see your Django app in action.</li>
 </ul>
 <br>
-📌 If you are adding some model in models.py or changing something don't forget to make migrations :<br>
+📌 If you are adding some model in models.py or changing something don't forget to make migrations :<br><br>
 
         python manage.py makemigrations
 
