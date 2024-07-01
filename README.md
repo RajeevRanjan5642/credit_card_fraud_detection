@@ -40,7 +40,7 @@ III. Install Project Dependencies:<br><br>
         pip install -r requirements.txt
 
 </ul><br>
-IV.Create a Superuser:<br>
+IV.Create a Superuser:<br><br>
 <ul>
 <li>In your project root directory (where manage.py is located), run the following command:</li>
 
