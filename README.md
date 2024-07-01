@@ -30,8 +30,7 @@ II. Activate the Virtual Environment:
 </ul>
 </li>
 </ul>
-III. Install Project Dependencies:
-
+III. Install Project Dependencies:<br>
 <ul>
 <li>Make sure you have a requirements.txt file in your project directory. If not, create one and list all the required packages (dependencies) for your Django project.</li> 
 <li>Run the following command to install the dependencies:</li>
@@ -40,7 +39,7 @@ III. Install Project Dependencies:
 
 </ul>
 
-IV.Create a Superuser:
+IV.Create a Superuser:<br>
 <ul>
 <li>In your project root directory (where manage.py is located), run the following command:</li>
 
@@ -48,7 +47,7 @@ IV.Create a Superuser:
 
 <li>Follow the prompts to set a username, email, and password for the superuser. This user will have administrative privileges in your Django application.</li>
 </ul>
-V. Run the Development Server:
+V. Run the Development Server:<br>
 <ul>
 <li>Start your Django development server by running:</li>
 
@@ -57,11 +56,11 @@ V. Run the Development Server:
 <li>Open your web browser and visit http://127.0.0.1:8000/ to see your Django app in action.</li>
 </ul>
 
-📝If you are adding some model in models.py or changing something don't forget to make migrations 
+NOTE : 📝If you are adding some model in models.py or changing something don't forget to make migrations :
 
         python manage.py makemigrations
 
-and migrate it to database
+and migrate it to database :
 
         python manage.py migrate
 
